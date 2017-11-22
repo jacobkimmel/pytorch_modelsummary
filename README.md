@@ -28,7 +28,7 @@ class Model(nn.Module):
 
 model = Model()
 
-# Estimate Size
+# Summarize Model
 from pytorch_modelsummary import ModelSummary
 
 ms = ModelSummary(model, input_size=(1, 1, 256, 256))
